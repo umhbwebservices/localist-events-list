@@ -23,7 +23,7 @@ require 'functions.php';
 // require '/path/to/jsonwrapper/jsonwrapper.php';
 
 // Config Variables
-$localist_platform = "http://events.umhb.edu/"; //include trailing slash
+$localist_platform = "http://YOURLOCALISTPLATFORM/"; //include trailing slash
 
 // Process URL Parameters
 $hide_minical = $_GET['hide_minical'];
