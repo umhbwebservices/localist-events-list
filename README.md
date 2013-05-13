@@ -1,3 +1,4 @@
+<pre>
 localist-events-list
 ====================
 
@@ -17,4 +18,4 @@ PHP implementation of Localist API to display event list on our site
     - show_num - Set to an integer of the number of items you want shown. Default is 10.
     - department - Set to the ID of the department you seek, found at the URL above
     - sort - Set to date to sort results by date, otherwise they will be sorted by Localist trending data
- 
+</pre>
