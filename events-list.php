@@ -25,6 +25,9 @@ require 'functions.php';
 // Config Variables
 $localist_platform = "http://YOURLOCALISTPLATFORM/"; //include trailing slash
 
+// For the Twitter Share
+$twitter_at = "@your_twitter_handle";
+
 // Process URL Parameters
 $hide_minical = $_GET['hide_minical'];
 $hide_building = $_GET['hide_building'];
@@ -86,7 +89,7 @@ if ($localist_data->events[0]->event->title) {
 		if ($show_social == 1) {
 			echo "      <div class='sociallinks'>\n";
 			echo "         <a class='sb min download no-underline' href='".$localist_platform."event/".$the_slug.".ics' title='Download Event to Your Calendar'><span>iCal</span></a>\n";
-			echo "         <a class='sb min twitter no-underline newWindow' title='Tweet this Event' href='https://twitter.com/intent/tweet?original_referer=http://www.umhb.edu&amp;url=".$the_url."&amp;text=".urlencode("Check out ".$the_title." @umhb")."'><span>Tweet</span></a>\n";
+			echo "         <a class='sb min twitter no-underline newWindow' title='Tweet this Event' href='https://twitter.com/intent/tweet?original_referer=".$localist_platform."&amp;url=".$the_url."&amp;text=".urlencode("Check out ".$the_title." ".$twitter_at)."'><span>Tweet</span></a>\n";
 			echo "         <a class='sb min facebook no-underline newWindow' title='Share this Event on Facebook' href='https://www.facebook.com/sharer/sharer.php?u=".$the_url."'><span>Share</span></a>\n";
 			echo "      </div>\n";
 		}
