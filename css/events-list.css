@@ -1,0 +1,88 @@
+/* This is the CSS that we use to display these events */
+
+#event-container .item {
+  clear: both;
+	padding: 20px 0 ;
+	display: block;
+	border-bottom: 1px dashed #ccc;
+	height:100%;
+	overflow: hidden;
+}
+#event-container .itembody {
+	overflow: hidden;
+}
+#event-container .cal {
+	float: left;
+	background: url('/sites/all/files/localist/icon-calendar.png') no-repeat top center;
+	padding-bottom: 5px;
+	margin-right: 15px;
+	width: 55px;
+	height: 60px;
+}
+#event-container .cal .month {
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+#event-container .cal .day {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #555;
+	padding-top: 2px;
+}
+#event-container {
+	width: 95%;
+	margin: 0 auto 20px auto;
+	clear: both;
+	overflow: hidden;
+}
+#event-container .eventtitle {
+	font-size: 1.35em;
+	font-weight: bold;
+	letter-spacing: -0.03em;
+	color: #5A3584;
+	margin-bottom: 10px;
+}
+#event-container .eventdate, #event-container .eventtime, #event-container .eventlocation {
+	color: #555;
+}
+#event-container .eventdatetime{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+}
+#event-container .eventlocation {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#event-container .item-7 {
+	clear: both;
+}
+#event-container .eventdescription {
+	color: #555;
+	clear: left;
+	padding-top: 10px;
+}
+#event-container .eventphoto {
+	float: left;
+	margin-right: 20px;
+}
+
+#event-container .sociallinks {
+    background: none repeat scroll 0 0 #f1f1f1;
+    border-radius: 8px 8px 8px 8px;
+    float: right;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+#event-container .sociallinks .sb.white.twitter {
+	background-position: 0px -320px;
+}
+#event-container .sociallinks .sb.white.facebook {
+		background-position: 0px -288px;
+}
+#event-container .sociallinks .sb.white.download {
+	  background-position: 0px -672px;
+}
