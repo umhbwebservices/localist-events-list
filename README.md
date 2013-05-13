@@ -1,9 +1,6 @@
-<pre>
 localist-events-list
 ====================
-
-PHP implementation of Localist API to display event list on our site
-
+<pre>PHP implementation of Localist API to display event list on our site
 
  UMHB Events List - Pulls list of events from Localist API and formats them to our liking
  List of department IDs can be found at http://YOURLOCALISTPLATFORM/api/2/events/filters
